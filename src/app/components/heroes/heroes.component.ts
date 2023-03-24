@@ -15,10 +15,10 @@ export class HeroesComponent {
   }
   ngOnInit() {
     this.heroes = this._heroesService.getHeroes();
-    console.log(this.heroes);
+    //console.log(this.heroes);
   }
   verHeroe(idx:number){
-    console.log("aqui en heroes");
+    //console.log("aqui en heroes");
     this.router.navigate(['/heroe', idx])
   }
 }
